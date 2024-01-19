@@ -6,25 +6,11 @@
 body{
     background-color: hsl(212, 45%, 89%);     
     font-family: 'Outfit', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    /* border: 5px solid red; */
-}
-
-main{
-    /* background-color: rebeccapurple; */
-    /* position: fixed; */
-    /* top: 0; */
-    /* height: 95vh; */
-    /* height: 100vh; */
-    /* background-color: aquamarine; */
-    /* display:flex;
-    justify-content: center;
-    align-items: center;   */
 }
 .card{
     background-color: hsl(0, 0%, 100%);        
@@ -35,7 +21,6 @@ main{
     margin: 15px;
 }
 .qr-img{
-    /* width: 270px; */
     width: 100%;
     border-radius: 15px;
 }
@@ -64,27 +49,4 @@ main{
 .attribution a { 
     color: #70647c;
     text-decoration: none;
-}
-
-footer{
-    /* background-color: blueviolet; */
-}
-
-@media screen and (max-height: 570px) and (max-width: 750px){
-    main{
-        /* margin: 50px 0; */
-        /* background-color: red; */
-    }
-    body{
-        height: auto;
-    }
-    /* .card{
-        width: 200px;
-    }
-    .title{
-        font-size: 14px;
-    }
-    .text{
-        font-size: 11px
-    } */
 }
